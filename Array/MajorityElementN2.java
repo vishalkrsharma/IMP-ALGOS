@@ -7,9 +7,9 @@ class Solution {
 
     for (int i = 0; i < nums.length; i++) {
       if (c == 0) {
+        c = 1;
         curr = nums[i];
-      }
-      if (nums[i] == curr) {
+      } else if (nums[i] == curr) {
         c++;
       } else {
         c--;
