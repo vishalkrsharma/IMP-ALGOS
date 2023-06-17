@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 
 class Solution {
@@ -31,7 +30,7 @@ class Solution {
           else if (twosum > target2)
             back--;
           else {
-            List<Integer> quad = new ArrayList();
+            List<Integer> quad = new ArrayList<>();
             quad.add(nums[i]);
             quad.add(nums[j]);
             quad.add(nums[front]);
