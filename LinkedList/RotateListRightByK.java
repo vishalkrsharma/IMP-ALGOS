@@ -4,7 +4,7 @@ class Solution {
     if (head == null || head.next == null || k == 0)
       return head;
 
-    ListNode ptr = head, ans;
+    ListNode ptr = head;
     int c = 1;
     while (ptr.next != null) {
       ptr = ptr.next;

@@ -1,4 +1,16 @@
-class GfG {
+class Solution {
+
+  class Node {
+    int data;
+    Node next;
+    Node bottom;
+
+    Node(int d) {
+      data = d;
+      next = null;
+      bottom = null;
+    }
+  }
 
   Node merge(Node a, Node b) {
     Node temp = new Node(0);

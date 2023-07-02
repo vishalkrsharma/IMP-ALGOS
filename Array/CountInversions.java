@@ -1,4 +1,4 @@
-class Solution {s
+class Solution {
   public static long merge(long arr[], int l, int m, int r) {
     int left = l;
     int right = m + 1;

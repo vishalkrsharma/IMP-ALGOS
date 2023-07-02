@@ -1,5 +1,24 @@
-// extend the long list by(difference in lingth between two lists) then linear check
-public class Solution1 {
+class ListNode {
+  int val;
+  ListNode next;
+
+  ListNode() {
+  }
+
+  ListNode(int val) {
+    this.val = val;
+  }
+
+  ListNode(int val, ListNode next) {
+    this.val = val;
+    this.next = next;
+  }
+}
+
+// extend the long list by(difference in lingth between two lists) then linear
+// check
+class Solution1 {
+
   public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     ListNode a = headA, b = headB;
 
@@ -42,7 +61,7 @@ public class Solution1 {
   }
 }
 
-public class Solution2 {
+class Solution2 {
   public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     if (headA == null || headB == null)
       return null;

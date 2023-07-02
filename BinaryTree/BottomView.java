@@ -1,4 +1,22 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
+import java.util.TreeMap;
+
 class Solution {
+
+  class Node {
+    int data;
+    Node left;
+    Node right;
+
+    Node(int data) {
+      this.data = data;
+      this.left = null;
+      this.right = null;
+    }
+  }
 
   class Pair {
     Node node;
