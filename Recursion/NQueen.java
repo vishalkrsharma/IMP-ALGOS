@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 // basic
-class Solution {
+class Solution1 {
 
   public boolean validate(char board[][], int row, int col) {
     int dupRow = row;
@@ -76,7 +77,7 @@ class Solution {
 }
 
 // optimize
-class Solution {
+class Solution2 {
 
   public List<List<String>> solveNQueens(int n) {
     char[][] board = new char[n][n];

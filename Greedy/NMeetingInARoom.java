@@ -50,5 +50,6 @@ class Solution {
       }
     }
 
-  }zen
+    return ans.size();
+  }
 }
